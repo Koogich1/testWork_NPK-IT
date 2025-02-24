@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, ul, li, form, input, button, textarea {
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #272727;
+  color: white;
+  font-family: "Inter", serif;
+}
